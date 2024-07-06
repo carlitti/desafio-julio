@@ -9,7 +9,7 @@ let tablaVaciaRealizadas = document.querySelector('#mensaje-vacio-realizadas');
 let contadorTotalTareas = 0;
 
 // Inicializar el próximo ID disponible con 4 ya que las tres primeras tareas están definidas
-let nextTaskId = 4;
+let nextTaskId = 5;
 
 let tareasIniciales = [
     { id: 1, nombre: 'Hacer las compras de la semana' },
@@ -18,7 +18,7 @@ let tareasIniciales = [
 ];
 
 let tareasRealizadas = [
-    { id: 2, nombre: 'Enviar desafío semanal' }
+    { id: 4, nombre: 'Enviar desafío semanal' }
 ];
 
 botonAgregar.addEventListener("click", function () {
