@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="todolist">
+            <div class="tituloTodoList">
+                <h1>Todo List</h1>
+            </div>
+        <div class="mainTodoList">
+            <label for="nuevatarea">Nueva tarea</label>
+            <div class="tareaTodoList">
+                <input type="text" name="textCajaAgregar" id="textCajaAgregar" placeholder="Ingresa la tarea" class="text-end fs-4 text">
+                <button id="buttonAgregar" class="btn btn-success">Agregar</button>
+            </div>
+        </div>
+        </div>
+        <div class="aplicacion">
+            <div class="primera-col col-4">
+                <div class="card">
+                    <h4 class="card-tittle" id="total-resultado"></h4>
+                    <h4 class="card-tittle" id="total-realizadas"></h4>
+                </div>
+            </div>
+            <div class="segunda-col col-2"></div>
+            <div class="tercera-col col-6" >
+                <h4>Tareas</h4>
+                <table class="table" id="tablaTotales">
+                    <div class="mensaje-vacio text-info" id="mensaje-vacio-tareas">No tienes tareas por realizar</div>
+                </table>
+                <h4>Realizadas</h4>
+                <table class="table" id="tablaRealizadas">
+                    <div class="mensaje-vacio text-info" id="mensaje-vacio-realizadas">No tienes tareas realizadas</div>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>

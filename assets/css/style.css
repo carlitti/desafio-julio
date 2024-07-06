@@ -1,0 +1,63 @@
+*{
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    background-color: rgb(180, 213, 243);
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+
+.tituloTodoList{
+    margin-left: 5px;
+    border-bottom: 1px solid rgb(34, 33, 33);
+    margin-bottom: 10px;
+}
+.tituloTodoList h1{
+    margin-left: 3px;
+}
+
+
+.tareaTodoList{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.tareaTodoList input{
+    height: 7vh;
+}
+.tareaTodoList button{
+    height: 7vh;
+    margin-left: 20px;
+    font-size: larger;
+    border: none;
+}
+.mainTodoList{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.aplicacion{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.card{
+  padding: 8px;
+}
+.btn-without-border{
+  border: none!important;
+  background-color: transparent!important;
+  box-shadow: 0px;
+}
+input[type="text"]::placeholder {  
+    padding-right: 5px; 
+}
+input[type="text"] {  
+    padding-right: 30px; 
+}
+.mensaje-vacio{
+    display: none;
+}
